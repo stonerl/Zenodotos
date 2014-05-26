@@ -51,7 +51,7 @@ Zenodotos::Application.configure do
 
   # Email
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = { :address => "134.2.3.2", :openssl_verify_mode => 'none'}
+  config.action_mailer.smtp_settings = { :address => "smtpserv.uni-tuebingen.de", :openssl_verify_mode => 'none'}
   config.action_mailer.perform_deliveries = true
 
   # Enable threaded mode
